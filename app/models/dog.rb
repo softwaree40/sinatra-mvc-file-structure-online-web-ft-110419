@@ -8,6 +8,7 @@ class Dog
 
     end
     def self.all
-       @@all 
+       @@all
+       binding.pry
     end
 end
