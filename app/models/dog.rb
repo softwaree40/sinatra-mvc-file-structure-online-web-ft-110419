@@ -8,7 +8,7 @@ class Dog
         @@all << self 
     end
     def self.all
-       @@all.count
+       @@all.size
        #binding.pry
     end
 end
