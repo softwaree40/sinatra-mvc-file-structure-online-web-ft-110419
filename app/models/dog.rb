@@ -9,6 +9,6 @@ class Dog
     end
     def self.all
        @@all.size
-       binding.pry
+       
     end
 end
