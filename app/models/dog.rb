@@ -9,6 +9,8 @@ class Dog
     end
     def self.all
        @@all.size
-       
     end
-end
+      def self.count
+          @@all
+      end
+  end
